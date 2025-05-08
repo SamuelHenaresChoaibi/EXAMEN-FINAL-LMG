@@ -1,9 +1,8 @@
 //classes.js: Definició de les classes Pel·lícula i Gènere.
 
 export class Pelicula {
-    #id;
     constructor(id, titol, genere, prioritat, perVeure, vista, favorita, dataVisualitzacio, opinio){
-        this.#id = id;
+        this.id = id;
         this.titol = titol;
         this.genere = genere;
         this.prioritat = prioritat;
@@ -12,10 +11,6 @@ export class Pelicula {
         this.favorita = favorita;
         this.dataVisualitzacio = dataVisualitzacio;
         this.opinio = opinio;
-    }
-
-    get id() {
-        return this.#id;
     }
 }
 

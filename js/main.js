@@ -1,7 +1,7 @@
 //main.js: Gestió principal de la pàgina d’inici.
 
 import { Genere, Pelicula } from './classes.js';
-import { cargarPeliculas, cargarPeliculasJSON, eliminarPelicula, eliminarPeliculaJSON, guardarPeliculasJSON } from './pelicules.js';
+import { cargarPeliculas, cargarPeliculasJSON, eliminarPelicula, eliminarPeliculaJSON, guardarPeliculasJSON, guardarPeliculas} from './pelicules.js';
 import { cargarGeneros, guardarGeneros,  } from './utils.js';
 
 
@@ -82,11 +82,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const li = crearPeliculaHTML(pelicula);
             if (pelicula.vista) {
                 if (filtroCompletas === 'Todas' || pelicula.genere === filtroCompletas) {
-                    pelisCompletadas.appendChild(li);
+                    pelisPendientes.appendChild(li);
                 }
             } else {
                 if (filtroPendientes === 'Todas' || pelicula.genere === filtroPendientes) {
-                    pelisPendientes.appendChild(li);
+                    pelisCompletadas.appendChild(li);
                 }
             }
         });
