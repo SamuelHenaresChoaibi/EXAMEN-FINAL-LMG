@@ -1,0 +1,222 @@
+[
+    {
+        "id": "movie-001",
+        "titol": "Inception",
+        "genere": "Animació",
+        "prioritat": "Mitjana",
+        "perVeure": true,
+        "vista": true,
+        "favorita": false,
+        "dataVisualitzacio": "2025-03-16",
+        "opinio": "Visualment espectacular"
+    },
+    {
+        "id": "movie-002",
+        "titol": "Titanic",
+        "genere": "Drama",
+        "prioritat": "Mitjana",
+        "perVeure": false,
+        "vista": true,
+        "favorita": true,
+        "dataVisualitzacio": "2025-04-02",
+        "opinio": "Una obra mestra"
+    },
+    {
+        "id": "movie-003",
+        "titol": "Avatar",
+        "genere": "Comèdia",
+        "prioritat": "Mitjana",
+        "perVeure": false,
+        "vista": true,
+        "favorita": false,
+        "dataVisualitzacio": "2025-03-13",
+        "opinio": "Regular"
+    },
+    {
+        "id": "movie-004",
+        "titol": "Interstellar",
+        "genere": "Acció",
+        "prioritat": "Mitjana",
+        "perVeure": true,
+        "vista": true,
+        "favorita": true,
+        "dataVisualitzacio": "2025-03-31",
+        "opinio": "Molt bona"
+    },
+    {
+        "id": "movie-005",
+        "titol": "Joker",
+        "genere": "Ciència-ficció",
+        "prioritat": "Baixa",
+        "perVeure": false,
+        "vista": true,
+        "favorita": false,
+        "dataVisualitzacio": "2025-02-11",
+        "opinio": "Molt bona"
+    },
+    {
+        "id": "movie-006",
+        "titol": "The Matrix",
+        "genere": "Drama",
+        "prioritat": "Mitjana",
+        "perVeure": false,
+        "vista": true,
+        "favorita": true,
+        "dataVisualitzacio": "2025-03-28",
+        "opinio": "Increïble"
+    },
+    {
+        "id": "movie-007",
+        "titol": "Gladiator",
+        "genere": "Drama",
+        "prioritat": "Alta",
+        "perVeure": true,
+        "vista": false,
+        "favorita": true,
+        "dataVisualitzacio": "",
+        "opinio": ""
+    },
+    {
+        "id": "movie-008",
+        "titol": "The Godfather",
+        "genere": "Aventura",
+        "prioritat": "Baixa",
+        "perVeure": false,
+        "vista": true,
+        "favorita": false,
+        "dataVisualitzacio": "2025-04-12",
+        "opinio": "Una obra mestra"
+    },
+    {
+        "id": "movie-009",
+        "titol": "The Dark Knight",
+        "genere": "Drama",
+        "prioritat": "Mitjana",
+        "perVeure": true,
+        "vista": false,
+        "favorita": false,
+        "dataVisualitzacio": "",
+        "opinio": ""
+    },
+    {
+        "id": "movie-010",
+        "titol": "Forrest Gump",
+        "genere": "Drama",
+        "prioritat": "Alta",
+        "perVeure": true,
+        "vista": false,
+        "favorita": true,
+        "dataVisualitzacio": "",
+        "opinio": ""
+    },
+    {
+        "id": "movie-011",
+        "titol": "Pulp Fiction",
+        "genere": "Aventura",
+        "prioritat": "Alta",
+        "perVeure": false,
+        "vista": true,
+        "favorita": true,
+        "dataVisualitzacio": "2025-05-05",
+        "opinio": "Increïble"
+    },
+    {
+        "id": "movie-012",
+        "titol": "Fight Club",
+        "genere": "Drama",
+        "prioritat": "Alta",
+        "perVeure": false,
+        "vista": true,
+        "favorita": true,
+        "dataVisualitzacio": "2025-03-13",
+        "opinio": "Regular"
+    },
+    {
+        "id": "movie-013",
+        "titol": "The Shawshank Redemption",
+        "genere": "Acció",
+        "prioritat": "Baixa",
+        "perVeure": false,
+        "vista": true,
+        "favorita": true,
+        "dataVisualitzacio": "2025-04-02",
+        "opinio": "Visualment espectacular"
+    },
+    {
+        "id": "movie-014",
+        "titol": "Up",
+        "genere": "Acció",
+        "prioritat": "Mitjana",
+        "perVeure": false,
+        "vista": true,
+        "favorita": false,
+        "dataVisualitzacio": "2025-02-07",
+        "opinio": "Regular"
+    },
+    {
+        "id": "movie-015",
+        "titol": "Finding Nemo",
+        "genere": "Aventura",
+        "prioritat": "Baixa",
+        "perVeure": true,
+        "vista": true,
+        "favorita": true,
+        "dataVisualitzacio": "2025-03-04",
+        "opinio": "Regular"
+    },
+    {
+        "id": "movie-016",
+        "titol": "Shrek",
+        "genere": "Animació",
+        "prioritat": "Mitjana",
+        "perVeure": true,
+        "vista": false,
+        "favorita": false,
+        "dataVisualitzacio": "",
+        "opinio": ""
+    },
+    {
+        "id": "movie-017",
+        "titol": "The Lion King",
+        "genere": "Aventura",
+        "prioritat": "Alta",
+        "perVeure": true,
+        "vista": false,
+        "favorita": false,
+        "dataVisualitzacio": "",
+        "opinio": ""
+    },
+    {
+        "id": "movie-018",
+        "titol": "Frozen",
+        "genere": "Acció",
+        "prioritat": "Baixa",
+        "perVeure": true,
+        "vista": true,
+        "favorita": true,
+        "dataVisualitzacio": "2025-04-28",
+        "opinio": "Increïble"
+    },
+    {
+        "id": "movie-019",
+        "titol": "Toy Story",
+        "genere": "Drama",
+        "prioritat": "Alta",
+        "perVeure": true,
+        "vista": true,
+        "favorita": false,
+        "dataVisualitzacio": "2025-04-13",
+        "opinio": "Visualment espectacular"
+    },
+    {
+        "id": "movie-020",
+        "titol": "Wall-E",
+        "genere": "Comèdia",
+        "prioritat": "Baixa",
+        "perVeure": true,
+        "vista": false,
+        "favorita": true,
+        "dataVisualitzacio": "",
+        "opinio": ""
+    }
+]
