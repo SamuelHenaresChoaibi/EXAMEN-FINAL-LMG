@@ -9,6 +9,7 @@
     <link rel="icon" href="" type="image/png">
     <title>Añadir Película</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="js/afegir.js"></script>
     <style>
         #sidebar {
             transition: all 0.3s ease-in-out;
@@ -45,7 +46,7 @@
     </aside>
 
     <main class="flex-1 p-4 md:p-6">
-        <h1 class="text-2xl md:text-3xl font-bold mb-6">Crear Nueva Tarea</h1>
+        <h1 class="text-2xl md:text-3xl font-bold mb-6">Añadir Película</h1>
 
         <!-- Crear tarea -->
         <section class="bg-white p-4 md:p-6 rounded-lg shadow mb-8">
@@ -60,7 +61,7 @@
                 <!-- Género -->
                 <h2 class="text-lg md:text-xl font-bold py-1">Género</h2>
                 <div class="flex flex-col md:flex-row gap-4">
-                    <select id="genero" class="flex-1 p-2 border rounded text-sm md:text-base w-full">
+                    <select id="generos" class="flex-1 p-2 border rounded text-sm md:text-base w-full">
                         
                     </select>
                 </div>
@@ -70,8 +71,8 @@
                 <div class="flex flex-col md:flex-row gap-4">
                     <select id="priority" class="flex-1 p-2 border rounded text-sm md:text-base w-full">
                         <option value="Alta">Alta</option>
-                        <option value="Media">Media</option>
-                        <option value="Baja">Baja</option>
+                        <option value="Mitjana">Mitjana</option>
+                        <option value="Baixa">Baixa</option>
                     </select>
                 </div>
 
@@ -79,8 +80,8 @@
                 <h2 class="text-lg md:text-xl font-bold py-1">Para ver</h2>
                 <div class="flex flex-col md:flex-row gap-4">
                     <select id="paraVer" class="flex-1 p-2 border rounded text-sm md:text-base w-full">
-                        <option value="No">No</option>
-                        <option value="Si">Si</option>
+                        <option value="false">No</option>
+                        <option value="true">Si</option>
                     </select>
                 </div>
 
@@ -88,8 +89,8 @@
                 <h2 class="text-lg md:text-xl font-bold py-1">¿Vista?</h2>
                 <div class="flex flex-col md:flex-row gap-4">
                     <select id="peliVista" class="flex-1 p-2 border rounded text-sm md:text-base w-full">
-                        <option value="No">No</option>
-                        <option value="Si">Si</option>
+                        <option value="false">No</option>
+                        <option value="true">Si</option>
                     </select>
                 </div>
 
@@ -97,8 +98,8 @@
                 <h2 class="text-lg md:text-xl font-bold py-1">¿Favorita?</h2>
                 <div class="flex flex-col md:flex-row gap-4">
                     <select id="favorita" class="flex-1 p-2 border rounded text-sm md:text-base w-full">
-                        <option value="No">No</option>
-                        <option value="Si">Si</option>
+                        <option value="false">No</option>
+                        <option value="true">Si</option>
                     </select>
                 </div>
 
@@ -121,7 +122,7 @@
                 </div>
 
                 <!-- Botón para crear tarea -->
-                <button id="create-film"
+                <button id="add-film"
                     class="w-full md:w-auto bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-base md:text-lg">
                     Añadir Película
                 </button>

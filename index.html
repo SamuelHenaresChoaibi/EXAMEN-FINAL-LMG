@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="" type="image/png">
     <title>Lista de Películas</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="js/main.js"></script>
     <style>
         #sidebar {
             transition: all 0.3s ease-in-out;
@@ -46,7 +46,7 @@
     </aside>
 
     <div class="flex-1 p-4 md:p-6">
-        <h1 class="text-2xl md:text-3xl font-bold mb-6">Lista de Actividades</h1>
+        <h1 class="text-2xl md:text-3xl font-bold mb-6">Lista de Películas</h1>
 
         <!-- Crear tarea -->
         <section class="bg-white p-4 md:p-6 rounded-lg shadow mb-8">
@@ -74,6 +74,9 @@
         <section class="bg-white p-4 md:p-6 rounded-lg shadow mb-8">
             <div class="flex justify-between items-center mb-4">
                 <h2 class="text-2xl font-bold">Películas pendientes de ver</h2>
+                <select id="filtro-pendientes" class="mg-10 flex-1 p-2 border rounded text-sm md:text-base w-full">
+                <option value="Todas">Todas</option>
+                </select>
             </div>
             <ul id="pending-films" class="space-y-2"></ul>
         </section>
@@ -82,6 +85,9 @@
         <section class="bg-white p-4 md:p-6 rounded-lg shadow mb-8">
             <div class="flex justify-between items-center mb-4">
                 <h2 class="text-2xl font-bold">Películas vistas</h2>
+                <select id="filtro-completas" class="mg-10 flex-1 p-2 border rounded text-sm md:text-base w-full">
+                    <option value="Todas">Todas</option>
+                </select>
             </div>
             <ul id="completed-films" class="space-y-2"></ul>
         </section>
